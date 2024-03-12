@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          class="ava"
+          src="https://www.tadviser.ru/images/7/76/HTML5.jpg"
+          alt="Моя аватарка"
+        />
+        <div class="info-text">
+          <h2>Яковлев Денис</h2>
+          <p><strong>Я</strong> студент <strong>Result school</strong>.</p>
+          <p>Люблю <em>спорт, программирование</em>.</p>
+
+          <p><strong>Список социальных сетей:</strong></p>
+          <p>
+            <a href="https://vk.com" target="_blank">VK</a> |
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+          </p>
+        </div>
+      </div>
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>ММА</li>
+          <li>Бокс</li>
+          <li>Путешествия</li>
+        </ol>
+      </div>
+      <div class="card bg-red">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <!-- <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>Школа</td>
+              <td>Ученик</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td>Колледж</td>
+              <td>Студент</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name" placeholder="Ваше имя" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Ваш email" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <br />
+          <textarea id="message" cols="20" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn">Отправить!</button>
+      </form>
+    </div>
+  </body>
+</html>
